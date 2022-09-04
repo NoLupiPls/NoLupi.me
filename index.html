@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>NoLupi</title>
+    <meta property="og:site_name" content="NoLupi <3">
+    <meta property="og:title" content="Персональная визитка NoLupi, содержащая в себе ссылки для связи со мной">
+    <meta property="og:site_name" content="NoLupi <3">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nolupi">
+    <meta name="twitter:creator" content="@nolupipls">
+    <meta name="twitter:title" content="Персональная визитка nolupi">
+    <meta name="twitter:description" content="Содержащая в себе ссылки для связи со мной.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="main/img/icon.ico" />
+    <link rel="stylesheet" href="main/css/cur.css">
+
+
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/54610852" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+
+<body style="background: #000000; color: rgb(6, 238, 6);">
+    <script src="main/js/cur.js"></script>
+    <span>root@nolupi:~# </span>
+    <span style="white-space:pre;" id="type"></span>
+    <h3 style="margin-top: 46vh; text-align: center;">
+            <span id="animated">
+            
+            </span>
+        </h3>
+</body>
+<script>
+    function is_shit() {
+        if (/MSIE/i.test(navigator.userAgent)) return true
+        if (/firefox/i.test(navigator.userAgent)) return true
+        if (/Trident/i.test(navigator.userAgent)) return true
+        if (/Edge/i.test(navigator.userAgent)) return true
+        return false
+    }
+    if (is_shit()) {
+        alert("ПОСТАВЬ ХРОМ ЕБЛАН")
+        window.open('https://www.google.com/intl/ru/chrome/', '_blank');
+    }
+</script>
+<script>
+    $.ajax({
+        url: "https://ident.me", success: function (result) {
+            new Typed('#type', {
+                strings: ['cd /home/nolupi/^1000\n`root@nolupi:/home/nolupi#`^1000\n`root@nolupi: Scanning ' + result + '...`^6000\n`root@nolupi: Access is allowed!`\n`root@nolupi: Rick rolling...`^1000'],
+                typeSpeed: 60,
+                backSpeed: 0,
+                cursorChar: '❚',
+                loop: false,
+                onComplete: function (self) {
+                    (location.href = "/main/")
+                }
+            })
+        }
+    });
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Снег на сайте -->
+<!-- <script src="https://nolupi.ru/main/js/snowfall.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.collectonme').hide();
+        //Start the snow default options you can also make it snow in certain elements, etc.
+        $(document).snowfall();
+    });
+</script> -->
+<script src="main/js/block.js"></script>
+<script src="main/js/window.js"></script>
+<script src="main/js/index.js"></script>
+</html>
