@@ -11,7 +11,7 @@ let config = {
 
   // Социальные сети
   social: {
-    telegram: '@likemyasspls',
+    telegram: '@NoLupiPls',
     steam: '',
     vk: 'nolupi',
   },
