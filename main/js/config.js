@@ -12,7 +12,7 @@ let config = {
   // Социальные сети
   social: {
     telegram: '@NoLupiPls',
-    steam: '𝒰𝒷𝒹𝒶𝓉𝑒',
+    steam: '',
     vk: 'nolupi',
   },
 
